@@ -1,12 +1,24 @@
+/*
+* PROGRAM MYRESKILL IOT 
+* ANJURAN MPC
+* 
+* Penulis: Mohamad Ariffin Zulkifli
+* Syarikat: Myinvent Technologies Sdn Bhd
+*
+* Mikropengawal ESP32 hanya menyokong Wi-Fi berfrekuensi 2.4GHz.
+* Oleh itu, masukkan nama Wi-Fi yang berfrekuensi 2.4GHz sahaja.
+* 
+*/
+
 #include <WiFi.h>
 #include <MQTT.h>
 #include <SoftwareSerial.h>
 
-#define WIFI_SSID             "UniSZA-WiFi"
-#define WIFI_PASSWORD         "unisza2016"
+#define WIFI_SSID             "NAMA_WIFI_ANDA_DISINI"
+#define WIFI_PASSWORD         "PASSWORD_ANDA_DISINI"
 #define MQTT_HOST             "broker.hivemq.com"
-#define MQTT_PREFIX_TOPIC     "MyReskill_IoT_60177875232/hibiscus"
-#define MQTT_PUBLISH_TOPIC    "/soil"
+#define MQTT_PREFIX_TOPIC     "MyReskill_IoT_NOMBOR_TELEFON_ANDA_DISINI/hibiscus"
+#define MQTT_PUBLISH_TOPIC    "/data"
 #define MQTT_SUBSCRIBE_TOPIC  "/control"
 
 #define RS485RX             18
