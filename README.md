@@ -12,6 +12,6 @@ ariffin@myduino.com
 
 # MyReskill IoT
 Collection of Arduino sketches for MyReskill IoT programme.
-1. Read Hibiscus Sense Sensor's data and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
+1. Read BME280 sensor data on Hibiscus Sense and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
 2. Hibiscus Sense read RS485 soil moisture and temperature sensor and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/).
 3. Hibiscus Sense control RS485 relay, which receive the command from MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/).
