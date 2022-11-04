@@ -12,7 +12,8 @@ ariffin@myduino.com
 
 # MyReskill IoT
 Collection of Arduino sketches for MyReskill IoT programme.
-1. Read BME280 sensor data on Hibiscus Sense and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
-2. Hibiscus Sense read RS485 soil moisture and temperature sensor and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/).
-3. Hibiscus Sense control RS485 relay, which receive the command from MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/).
-4. Read BME280, MPU6050 and APDS9960 sensor data on Hibiscus Sense and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
+1. Read BME280 sensor data on [Hibiscus Sense](https://myduino.com/product/myd-036/) and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
+2. [Hibiscus Sense](https://myduino.com/product/myd-036/) read RS485 Soil Moisture and Temperature Sensor and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/).
+3. [Hibiscus Sense](https://myduino.com/product/myd-036/) control RS485 Relay, which receive the command from MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/).
+4. Read BME280, MPU6050 and APDS9960 sensor data on [Hibiscus Sense](https://myduino.com/product/myd-036/) and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
+5. Read Air [Quality MQ135](https://shopee.com.my/MQ-135-Air-Quality-Sensor-i.132184430.15305565716) sensor data on [Hibiscus Sense](https://myduino.com/product/myd-036/) and send the data to MQTT topic using [HiveMQ Public MQTT Broker](https://www.hivemq.com/public-mqtt-broker/)
