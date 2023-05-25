@@ -1,6 +1,5 @@
 /*
-* PROGRAM MYRESKILL IOT 
-* ANJURAN MPC
+* MYRESKILL IOT TRAINING
 * 
 * Penulis: Mohamad Ariffin Zulkifli
 * Syarikat: Myinvent Technologies Sdn Bhd
